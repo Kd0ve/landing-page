@@ -1,3 +1,4 @@
+/* General styles */
 body
 {
     display: flex;
@@ -18,6 +19,7 @@ a
     color: #e5e7eb;
 }
 
+/* Header styles */
 .header
 {
     display: flex;
@@ -27,11 +29,11 @@ a
     background: #1f2937;
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.header ul
+.links
 {
     display: flex;
     margin: 0;
@@ -48,8 +50,73 @@ a
     gap: 16px;
 }
 
+/* Entire content section. Everything but header and footer */
+.content
+{
+    flex: 1;
+}
+
+/* First section what is referred to as "hero" in instructions */
+.intro
+{
+    background: #1f2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+}
+
+.intro-content 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.intro h1
+{
+    color: #f9faf8;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.intro button
+{
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.left-intro-content
+{
+    padding: 80px 0px;
+    width: 400px;
+}
+
+.right-intro-content
+{
+    margin-top: 50px;
+}
+
+.right-intro-content img
+{
+    height: 200px;
+    width: 400px;
+}
+
+.intro p
+{
+    color: #e5e7eb;
+}
+
 .footer
 {
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
