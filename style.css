@@ -72,8 +72,7 @@ a
 .intro
 {
     background: #1f2937;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 10px 20% 50px 20%;
     margin: 0px;
 }
 
@@ -112,13 +111,13 @@ a
 
 .right-intro-content
 {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .right-intro-content img
 {
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 450px;
 }
 
 /*subtext under header*/
@@ -136,8 +135,7 @@ a
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 20px 20% 100px 20%;
     margin: 0px;
 }
 
@@ -175,7 +173,38 @@ a
 /*
     Quote styles
 */
+.quote-information
+{
+    background: #e5e7eb;
+    padding: 100px
+}
 
+.quote-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0px;
+}
+
+.quote-section .quote
+{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937
+}
+
+.author-section
+{
+    display:flex;
+    justify-content: right;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 /*
     Call to action styles
